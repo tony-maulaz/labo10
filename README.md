@@ -70,7 +70,7 @@ Pour utiliser le générateur, vous devez inclure :
 
 ```c
 # include <stdlib .h>
-# include <time .h>
+# include <time.h>
 ```
 
 Une seule fois au début du programme, il faut initialiser le générateur :
