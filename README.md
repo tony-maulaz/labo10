@@ -120,6 +120,70 @@ La qualité du code est évaluée. Pour mémoire :
 - Une fonction ne doit pas dépasser `50` lignes de codes.
 - Attention à la longueur des lignes.
 
+## Exemple
+
+```console
+$ ./number -n500
+
+Veuillez choisir une option :
+
+        1. Utilisateur choisi un nombre
+        2. Utilisateur trouve un nombre
+        3. Test générateur nombre
+        4. Version
+        5. Aide
+        0. Quitter
+> 2
+
+Bonjour
+J'ai choisis un nombre entre 0 et 1000 (500)
+Quel nombre avez-vous choisi ? > 400 
+Vous avez choisi un nombre trop petit.
+Quel nombre avez-vous choisi ? > 600
+Vous avez choisi un nombre trop grand.
+Quel nombre avez-vous choisi ? > 500
+Vous avez gagné en 3 coups, le nombre est : 500
+
+
+Veuillez choisir une option :
+        1. Utilisateur choisi un nombre
+        2. Utilisateur trouve un nombre
+        3. Test générateur nombre
+        4. Version
+        5. Aide
+        0. Quitter
+> 1
+
+Bonjour
+Veuillez choisir un nombre entre 0 et 1000
+Veuillez m'indiquer où je me situe avec un des opérateurs suivant : 
+        + : Le nombre est trop grand
+        - : Le nombre est trop petit
+        = : Le nombre est juste
+        q : Abandonner
+
+J'ai choisi le nombre : 500
+Le nombre proposé est : +
+J'ai choisi le nombre : 750
+Le nombre proposé est : +
+J'ai choisi le nombre : 875
+Le nombre proposé est : -
+J'ai choisi le nombre : 812
+Le nombre proposé est : =
+
+Vous avez gagné en 4 coups, le nombre est : 812
+
+
+Veuillez choisir une option :
+        1. Utilisateur choisi un nombre
+        2. Utilisateur trouve un nombre
+        3. Test générateur nombre
+        4. Version
+        5. Aide
+        0. Quitter
+> 0
+```
+
 ## Liste des livrables
 
 Mettre les fichiers suivant dans une archive **`zip`** (**pénalité pour les archives `rar`**) et la placer sur Cyberlearn
