@@ -41,6 +41,8 @@ Avec option
 $ ./number -n300
 ```
 
+Si une option invalide est entrée, il faut retourner un code d'erreur.
+
 Comme la taille d'une fonction est limitée à 30 lignes, il faut découper le programme en petites fonctions.
 
 ## Descriptif
