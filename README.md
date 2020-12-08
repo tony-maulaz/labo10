@@ -45,7 +45,9 @@ $ ./number -n300
 
 Si une option invalide est entrée, il faut retourner un code d'erreur.
 
-Comme la taille d'une fonction est limitée à 30 lignes, il faut découper le programme en petites fonctions.
+Le test de validation de l'option, peut être fait uniquement si l'option est utilisée.
+
+Comme la taille d'une fonction est limitée, il faut découper le programme en petites fonctions.
 
 ## Descriptif
 
@@ -115,7 +117,7 @@ La qualité du code est évaluée. Pour mémoire :
 - Le programme doit être **robuste**, les cas d'exception doivent être traités.
 - Le nom des fonctions **doivent** être explicite et non trop générique.
 - Les fonctions **doivent** avoir un commentaire explicatif.
-- Une fonction ne doit pas dépasser 30 lignes de codes.
+- Une fonction ne doit pas dépasser `50` lignes de codes.
 - Attention à la longueur des lignes.
 
 ## Liste des livrables
