@@ -20,7 +20,9 @@ deux manières :
 - L’utilisateur doit deviner un nombre entre `0` et `1000`.
 - L’ordinateur doit deviner un nombre entre `0` et `1000`.
 
-La valeur max doit être définie par un `#define`
+`0` et `1000` sont des valeurs possibles.
+
+La valeur max doit être définie par un `#define`.
 
 Le choix de l’opération doit être effectué par l’intermédiaire d’un menu.
 - Choisir le type de jeu
