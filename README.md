@@ -75,14 +75,14 @@ Pour générer un nombre aléatoire, nous allons utiliser le générateur de la 
 Pour utiliser le générateur, vous devez inclure :
 
 ```c
-# include <stdlib .h>
-# include <time.h>
+#include <stdlib.h>
+#include <time.h>
 ```
 
 Une seule fois au début du programme, il faut initialiser le générateur :
 
 ```c
-srand (( unsigned int) time( NULL ));
+srand( (unsigned int)time(NULL) );
 ```
 
 Ensuite pour obtenir un nombre il faut faire :
