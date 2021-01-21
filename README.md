@@ -103,21 +103,21 @@ Répondez aux questions suivantes en commentaire dans votre code :
     - Recommencer l'opération (relancer votre programme)
     - Que constater vous ?
     
-*La première partie de la question 3, revient à executer un code du genre*
-```C
-srand(1)
-v1 = rand()
-v2 = rand()
-v3 = rand()
-v4 = rand()
-```
-Vous pouvez remplir un tableau de ce style pour vous aider
+    *La première partie de la question 3, revient à executer un code du genre*
+    ```C
+    srand(1)
+    v1 = rand()
+    v2 = rand()
+    v3 = rand()
+    v4 = rand()
+    ```
+    Vous pouvez remplir un tableau de ce style pour vous aider
 
-Test | V1 | V2 | V3 | V4
----|---|---|---|---
-Execution prog. 1 |
-Execution prog. 2 |
-Execution prog. 3 |
+    Test | V1 | V2 | V3 | V4
+    ---|---|---|---|---
+    Execution prog. 1 |
+    Execution prog. 2 |
+    Execution prog. 3 |
 
 
 1. Pourquoi utilise-t-on `time` avec la fonction `srand` ?
