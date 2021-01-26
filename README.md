@@ -4,6 +4,7 @@
 
 # Suite
 - Ajouter option -r20 qui affiche une série de 20 nombre aléatoires
+- -h pour l'aide et pas dans le menu
 - Travail de groupe ?
 - Plus de temps de 4 périodes
 
