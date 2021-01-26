@@ -2,6 +2,11 @@
 
 - **Durée**: 4 périodes + travail à la maison
 
+# Suite
+- Ajouter option -r20 qui affiche une série de 20 nombre aléatoires
+- Travail de groupe ?
+- Plus de temps de 4 périodes
+
 ## Objectifs
 
 Les principaux buts de ce travail de laboratoire sont :
